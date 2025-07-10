@@ -22,7 +22,6 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 160px;
 }
 
 .nav-area h2{
@@ -30,7 +29,7 @@ body{
   font-size: 34px;
   font-weight: 900;
 }
-.nav-area button{
+.btn-primary{
   background: var(--primarycolor);
   color: white;
   font-size: 16px;
@@ -39,8 +38,23 @@ body{
   border-radius: 8px;
   border: none;
 }
-.nav-area button:hover{
+.btn-primary:hover{
   background: white;
   color: var(--primarycolor);
   border: 2px solid var(--primarycolor);
 }
+.banner{
+  margin-top: 160px;
+  text-align: center;
+}
+.banner h1{
+  color: #252432;
+  font-size: 70px;
+  font-weight: 700;
+  padding: 0 280px;
+  margin-bottom: 37px;
+}
+.banner button{
+  margin-bottom: 152px;
+}
+
