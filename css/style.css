@@ -12,6 +12,30 @@ body{
   font-family: var(--primaryfont);
 }
 
+/* share style */
+.btn-primary{
+  background: var(--primarycolor);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 36px;
+  border-radius: 8px;
+  border: none;
+}
+.btn-primary:hover{
+  background: white;
+  color: var(--primarycolor);
+  border: 2px solid var(--primarycolor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #252432;
+}
 /* header area style */
 .main-header{
   background-image: url(../Assets/Hero-bg.png);
@@ -29,20 +53,6 @@ body{
   font-size: 34px;
   font-weight: 900;
 }
-.btn-primary{
-  background: var(--primarycolor);
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 12px 36px;
-  border-radius: 8px;
-  border: none;
-}
-.btn-primary:hover{
-  background: white;
-  color: var(--primarycolor);
-  border: 2px solid var(--primarycolor);
-}
 .banner{
   margin-top: 160px;
   text-align: center;
@@ -58,3 +68,33 @@ body{
   margin-bottom: 152px;
 }
 
+/* main area style */
+.main-area{
+  margin: 0 150px;
+}
+
+/* action-area style */
+.action-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 116px 0;
+}
+.left-section{
+  flex-basis: 48%;
+}
+
+.left-section h2{
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.left-section p{
+  font-size: 24px;
+  color: hsla(244, 16%, 17%, 0.5);
+  margin-bottom: 23px;
+}
+
+.action-area img{
+  border-radius: 30px;
+}
