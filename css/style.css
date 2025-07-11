@@ -179,3 +179,95 @@ h6{
   font-weight: 500;
   color: hsla(244, 16%, 17%, 0.5);
 }
+/* Ready to focus better area style */
+.redy-to-focus-area{
+  text-align: center;
+  padding: 70px 150px;
+  border-radius: 20px;
+}
+.redy-to-focus-area h3{
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.redy-to-focus-area p{
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(0, 0%, 0%, 0.5);
+  margin-bottom: 20px;
+}
+.redy-to-focus-area button{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.redy-to-focus-area img{
+  border-radius: 20px;
+}
+
+/* Get in Touch area style */
+.contact-area{
+  margin-bottom: 71px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 117px;
+}
+.left-text-area{
+  flex-basis: 50%;
+}
+.left-text-area h2{
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+}
+.contact-area .right-side-form label{
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.contact-area .right-side-form input{
+  height: 70px;
+  border-radius: 5px;
+  display: block;
+  width: 490px;
+  padding: 20px 32px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 0 5px #00000022;
+}
+.contact-area .right-side-form textarea {
+  border-radius: 5px;
+  border: none;  
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+  background: #fff;
+  box-shadow: 0 0 5px #00000022;
+}
+.contact-area .right-side-form input, textarea::placeholder{
+  font-family: var(--secfont);
+  font-size: 16px;
+  color: hsla(0, 0%, 0%, 0.50);
+} 
+
+.contact-area .right-side-form button{
+  background: var(--primarycolor);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 19px 110px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+.contact-area .right-side-form button:hover{
+  background: white;
+  color: var(--primarycolor);
+  border: 2px solid var(--primarycolor); 
+}
