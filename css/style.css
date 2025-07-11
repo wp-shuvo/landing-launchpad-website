@@ -22,6 +22,7 @@ body{
   padding: 12px 36px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 .btn-primary:hover{
   background: white;
@@ -265,9 +266,47 @@ h6{
   border-radius: 8px;
   border: none;
   width: 100%;
+  cursor: pointer;
 }
 .contact-area .right-side-form button:hover{
   background: white;
   color: var(--primarycolor);
   border: 2px solid var(--primarycolor); 
+}
+
+/* footer Style */
+.main-footer{
+  text-align: center;
+  border-top: 1px solid hsla(0, 0%, 87%, 0.488);
+}
+
+.footer-top-area h2{
+  font-size: 100px;
+  font-weight: 900;
+  color: var(--primarycolor);
+  margin: 0 auto;
+  margin-top: 104px;
+  margin-bottom: 10px;
+}
+.footer-top-area p{
+  font-size: 18px;
+  font-weight: 500;
+  color: #8987A1;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.footer-link-area{
+  margin-bottom: 110px;
+}
+
+.footer-link-area a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #8987A1;
+  margin: 0 auto;
+  margin-right: 30px;
+}
+.footer-link-area a:hover{
+  color: var(--primarycolor);
 }
